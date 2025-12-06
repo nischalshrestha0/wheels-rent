@@ -1,0 +1,80 @@
+# =========================================
+# Node / Backend
+# =========================================
+node_modules/
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads & Generated Files
+uploads/
+public/uploads/
+*.tar.gz
+
+# Coverage
+coverage/
+
+# PM2 log files
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# Database Backups
+dump/
+*.gz
+
+# =========================================
+# React / Frontend
+# =========================================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+
+# React cache
+.cache/
+*.cache
+
+# Browser build cache
+public/static/
+
+# =========================================
+# OS / Global files
+# =========================================
+.DS_Store
+Thumbs.db
+*.DS_Store
+*.local
+
+# =========================================
+# Misc
+# =========================================
+*.pem
+*.key
+*.crt
+*.lock
